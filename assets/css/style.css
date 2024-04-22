@@ -13,10 +13,15 @@
 body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 200px);
+    grid-template-rows: repeat(12, 200px);
     grid-template-areas: 
     "header header header"
     "header header header"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
     "main main main"
     "main main main"
     "main main main"
@@ -81,8 +86,6 @@ header p {
 
 
 main {
-    
-    background-color: rgb(117, 126, 255);
     grid-area: main;
     font-family: 'Open Sans';
     text-align: center;
@@ -94,13 +97,16 @@ main h2 {
     font-weight: bolder;
     font-size: 1.2rem;
     color: #23272A;
+    text-align: left;
 }
 
 main p {
     font-weight: normal;
     font-size: .8rem;
     color: #23272A;
+    text-align: left;
 }
+
 
 img {
     max-width: 100%;
@@ -111,12 +117,12 @@ img {
     flex-direction: column;
     align-items: center;
     min-width: 350px;
+    margin: 40px 20px 40px 20px;
 
 }
 
 .conteudo {
     display: flex;
-    
 }
 
 .conteudo-texto {
@@ -125,19 +131,97 @@ img {
     margin: 0px 20px 0px 20px;
 }
 
-.conteudo picture,
-.conteudo h2,
-.conteudo p {
-    flex: 1;
-}
+
 
 .conteudo picture {
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
+    margin-right: 20px;
+}
+
+.segunda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 350px;
+    margin: 60px 20px 40px 20px;
+
+}
+
+.conteudo2 {
+    display: flex;
+}
+
+.conteudo-texto2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
 }
 
 
 
+.conteudo2 picture {
+    margin-right: 20px;
+}
+
+.terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 350px;
+    margin: 60px 20px 40px 20px;
+
+}
+
+.conteudo3 {
+    display: flex;
+}
+
+.conteudo-texto3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+}
+
+
+
+.conteudo3 picture {
+    margin-right: 20px;
+}
+
+.quarta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 350px;
+    margin: 60px 20px 40px 20px;
+
+}
+
+.conteudo4 {
+    display: flex;
+}
+
+.conteudo-texto4 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+}
+
+.conteudo-texto4 h3 {
+    text-align: left;
+    font-family: 'Luckiest Guy';
+    font-weight: 1.4rem;
+}
+
+
+
+.conteudo4 picture {
+    margin-right: 20px;
+}
+
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #23272A;
     grid-area: footer;
 }
