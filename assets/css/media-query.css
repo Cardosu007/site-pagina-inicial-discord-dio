@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px) {
+    header {
+        background-image: url(/assets/img/Header-Background.png);
+    }
+
+    .primeira {
+        background-image: url();
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 150px 0px 150px;
+    }
+
+    .conteudo-texto {
+        display: flex;
+        margin: 0px 20px 0px 20px;
+    }
+}

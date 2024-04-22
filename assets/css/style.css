@@ -36,7 +36,7 @@ header {
 header h1 {
     font-family: 'Luckiest Guy';
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: white;
     margin: 30px 0px 0px 30px;
 }
@@ -45,7 +45,7 @@ header p {
     font-family: 'Open Sans';
     font-weight: normal;
     color: white;
-    font-size: 1rem;
+    font-size: .8rem;
     padding: 30px;
 }
 
@@ -81,14 +81,61 @@ header p {
 
 
 main {
+    
     background-color: rgb(117, 126, 255);
     grid-area: main;
-    
+    font-family: 'Open Sans';
+    text-align: center;
+
+}
+
+main h2 {
+    font-family: 'Open Sans';
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: #23272A;
+}
+
+main p {
+    font-weight: normal;
+    font-size: .8rem;
+    color: #23272A;
 }
 
 img {
     max-width: 100%;
 }
+
+.primeira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 350px;
+
+}
+
+.conteudo {
+    display: flex;
+    
+}
+
+.conteudo-texto {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+}
+
+.conteudo picture,
+.conteudo h2,
+.conteudo p {
+    flex: 1;
+}
+
+.conteudo picture {
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+
 
 footer {
     background-color: #23272A;
