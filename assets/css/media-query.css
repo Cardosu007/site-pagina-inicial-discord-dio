@@ -5,11 +5,10 @@
     body {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(14, 200px);
+        grid-template-rows: repeat(13, 200px);
         grid-template-areas: 
         "header header header"
         "header header header"
-        "main main main"
         "main main main"
         "main main main"
         "main main main"
@@ -42,13 +41,9 @@
         text-align: center;
         color: white;
         font-size: 1rem;
+        margin: 0px 250px 0px 250px;
         padding: 30px;
-        margin: 0px 400px 0px 400px;
-    }
 
-    main {
-        text-align: left;
-        
     }
 
     main h2 {
@@ -66,7 +61,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0px 400px 0px 200px;
+    margin: 0px 150px 0px 150px;
     min-width: 700px;
     min-height: 400px;
     }
@@ -80,4 +75,75 @@
         display: flex;
         margin: 0px 0px 0px 0px;
     }
+
+    .segunda {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 0px 150px 0px 150px;
+        min-width: 700px;
+        min-height: 400px;
+        }
+    
+        .conteudo2 {
+            display: flex;
+            min-width: 600px;
+        }
+    
+        .conteudo-texto2 {
+            display: flex;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .terceira {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 0px 150px 0px 150px;
+            min-width: 700px;
+            min-height: 400px;
+            }
+        
+            .conteudo3 {
+                display: flex;
+                min-width: 600px;
+            }
+        
+            .conteudo-texto3 {
+                display: flex;
+                margin: 0px 0px 0px 0px;
+            }
+
+
+            .quarta {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 70px 150px 0px 150px;
+                min-width: 700px;
+                min-height: 400px;
+                }
+            
+                .conteudo4 {
+                    display: flex;
+                    min-width: 600px;
+                }
+
+                
+                .conteudo-texto4 p {
+                    padding-top: 10px;
+                    font-size: 1rem;
+                    font-family: 'Open Sans';
+                    display: flex;
+                    text-align: center;
+                    margin: 0px 0px 0px 0px;
+                }
+
+                .conteudo-texto4 h3 {
+                    text-align: center;
+                    font-family: 'Luckiest Guy';
+                    font-size: 2rem;
+                }
+
+
 }
